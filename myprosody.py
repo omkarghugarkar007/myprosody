@@ -444,5 +444,4 @@ def mysplev(m,p):
 		model = pickle.load(open(filename, 'rb'))
 		predictions = model.predict(x)
 		print("63% accuracy    ",predictions)
-	except:
-		print ("Try again the sound of the audio was not clear")
+	

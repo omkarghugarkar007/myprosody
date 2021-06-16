@@ -346,10 +346,7 @@ def myprosody(m,p):
         print ("Try again the sound of the audio was not clear")	
     
 def mysplev(m,p):
-    """
-    Spoken Language Proficiency Level estimator, 
-    based on Machine Learning models of the prosodic features of your speech
-    """
+	    
 	import sys
 	def my_except_hook(exctype, value, traceback):
 		print('There has been an error in the system')

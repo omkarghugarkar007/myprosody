@@ -8,6 +8,7 @@ from scipy.stats import binom
 from scipy.stats import ks_2samp
 from scipy.stats import ttest_ind
 import os
+import pickle
 
 def run_praat_file(m, p):
     """

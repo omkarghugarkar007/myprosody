@@ -221,8 +221,6 @@ def myspgend(m,p):
     sourcerun=p+"/"+"dataset"+"/"+"essen"+"/"+"myspsolution.praat" 
     path=p+"/"+"dataset"+"/"+"audioFiles"+"/"
     try:
-	gen = None
-	type = None
         objects= run_file(sourcerun, -20, 2, 0.3, "yes",sound,path, 80, 400, 0.01, capture_output=True)
         print (objects[0]) # This will print the info from the sound object, and objects[0] is a parselmouth.Sound object
         z1=str( objects[1]) # This will print the info from the textgrid object, and objects[1] is a parselmouth.Data object with a TextGrid inside

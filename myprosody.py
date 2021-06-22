@@ -332,6 +332,7 @@ def myprosody(m,p):
         for i in range(25):
             sl0=dataframe[4:7:1,i+1]
             score = array[0,i]
+	    print(score)
             he=scipy.stats.percentileofscore(sl0, score, kind='strict')
             if he==0:
                 he=25
